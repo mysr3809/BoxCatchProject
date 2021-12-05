@@ -13,7 +13,6 @@ function getJSON() {
             let output = "";
             infos.forEach(info => {
                 output += `<li> ${info.studentName} - ${info.studentSurname}</li> `
-
             });
             document.getElementById("outputUl").innerHTML += output;
         })
