@@ -17,7 +17,6 @@ function getJSON() {
             });
             document.getElementById("outputUl").innerHTML += output;
         })
-
 }
 
 function getApi() {
